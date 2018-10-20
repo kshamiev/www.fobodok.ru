@@ -1,12 +1,49 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
 *.so
-*.dylib
+*.conf
+*.log
 
-# Test binary, build with `go test -c`
+# Project
+
+# External dependences
+phpzero
+cache
+test
+exchange
+upload
+library
+config.php
+config
+
+# IDE
+.git
+.project
+.settings
+.idea
+nbproject*
+
+# Folders
+_obj
+_test
+bin
+pkg
+run
+log
+logs
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+*.exe
 *.test
-
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
